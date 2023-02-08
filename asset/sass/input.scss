@@ -1,9 +1,4 @@
 
-button {
-    border-radius:100% !important;
-}
-
-
 .box{
     position: relative;
 }
@@ -22,8 +17,7 @@ input:focus{
     border: 1.5px solid rgb(14, 91, 191);
 }
 
-input:focus  ~ label{
-    transform: translateY(-90%) scale(1.1);
-    background: rgba(227, 222, 222, 0);
-    color: lightsteelblue;
+
+.btn-success:hover{
+        background-color: rgb(14, 91, 191) !important;
 }

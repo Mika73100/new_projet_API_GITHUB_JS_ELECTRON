@@ -1,11 +1,9 @@
 @import "./input.scss";
 
-
 *{
     margin: 0;
     padding: 0;
     font-family: monospace;
-
 }
 
 body{
@@ -25,18 +23,32 @@ body{
         navbar navbar-light {
             background-color: #333 !important;
         }
+        .projet {
+            border: solid 2px #333;
+            padding: 3%;
+            border-radius: 5px;
+            word-wrap: break-word;
+            margin:15px;
+        }
     }
 }
 
 @media (prefers-color-scheme: light) {
     body {
         background: #ddd;
-        color: black;
+        color: #333;
         input{
             color: #333;
         }
         navbar navbar-light {
             background: #ddd !important;
+        }
+        .projet {
+            border: solid 2px #ddd;
+            padding: 3%;
+            border-radius: 5px;
+            word-wrap: break-word;
+            margin:15px;
         }
     }
 }
@@ -45,6 +57,11 @@ body{
         background: rgb(64, 223, 24) !important;
         margin: 5%  !important;
         border-radius: 7px;
+        word-wrap: break-word;
     }
+
+
+
+
 
 
