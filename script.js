@@ -26,7 +26,7 @@ btn.onclick = () => {
             const newDiv = document.createElement('div');
             newDiv.innerHTML = `
             <div  class="projet">
-                <a href="">${repo.html_url}</a>
+                <a href="" target="_blank" rel="window.object">${repo.html_url}</a>
                 <p>Language: ${repo.language}</p>
                 <p>Description: ${repo.description}</p>
             </div>

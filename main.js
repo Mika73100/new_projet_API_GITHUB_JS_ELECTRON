@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain, nativeTheme } = require('electron')
 const path = require('path')
 
+
 function createWindow() {
     const win = new BrowserWindow({
         width: 800,
@@ -19,10 +20,6 @@ function createWindow() {
             nativeTheme.themeSource = 'dark'
         }
         return nativeTheme.shouldUseDarkColors
-    })
-
-    ipcMain.handle('dark-mode:system', () => {
-        nativeTheme.themeSource = 'system'
     })
 }
 
