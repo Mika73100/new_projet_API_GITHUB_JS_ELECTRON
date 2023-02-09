@@ -9,7 +9,7 @@ btn.onclick = () => {
         output.textContent = "";
         outputName.textContent = `Compte de ${data.name}`;
         
-        output2.innerHTML = `<p>Blog : </p><a href="">${data.blog}</a>`;
+        output2.innerHTML = `<p>Blog : <a href="">${data.blog}</a></p>`;
         output3.textContent = `Followers : ${data.followers}`;
         output4.textContent = `Repository : ${data.public_repos}`;
 
