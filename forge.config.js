@@ -27,13 +27,14 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'MIKA73100',
-          name: 'new_projet_API_GITHUB',
+          owner: 'MIKA73100', // ici mettre son nom github
+          name: 'new_projet_API_GITHUB',//ici mettre son nom de ripo
         },
-        authToken : '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',
+        authToken :'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', //ici mettre son token généré
         prerelease: false,
         draft: true,
       },
     },
   ],
+  
 };

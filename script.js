@@ -28,7 +28,9 @@ btn.onclick = () => {
         outputImg.appendChild(img);
     })
 
-    fetch("https://api.github.com/users/"+ champ.value +"/repos?page=5&per_page=5")
+    //fetch("https://api.github.com/users/"+ champ.value +"/repos?page=5&per_page=5")
+
+    fetch("https://api.github.com/users/"+ champ.value +"/repos?")
     .then(reponse2 => reponse2.json())
     .then(data => {
         data.forEach(repo => {

@@ -41,6 +41,8 @@ e de site responsive 3 colonnes:
                         },
                         "author": "MIKA73100",
 
+4 / Généré un token sur github et le mettre dans config.forge
+
 5 / npm install update-electron-app
 
 6 / npm install --save-dev @electron-forge/publisher-github
@@ -49,10 +51,6 @@ e de site responsive 3 colonnes:
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 
 
 
