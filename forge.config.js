@@ -30,7 +30,7 @@ module.exports = {
           owner: 'MIKA73100', // ici mettre son nom github
           name: 'new_projet_API_GITHUB',//ici mettre son nom de ripo
         },
-        authToken :'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', //ici mettre son token généré
+        authToken :'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', //ici mettre son token généré
         prerelease: false,
         draft: true,
       },
