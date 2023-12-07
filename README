@@ -1,6 +1,6 @@
 
 
-e de site responsive 3 colonnes:
+ site responsive 3 colonnes:
 
 - installer sass avec : npm i sass 
 -installer nodemodule avec : npm i nodemodule
